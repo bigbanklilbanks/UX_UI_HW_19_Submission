@@ -1,0 +1,170 @@
+
+body {
+  margin: 0;
+  background-color: #090819;
+  color: antiquewhite;
+
+}
+header {
+  background-color: #090819;
+  padding: 5px;
+  color: antiquewhite;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+}
+
+.navbar{
+  background-color: #090819;
+  padding: 5px;
+  padding-left: 50px;
+  color: antiquewhite;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: antiquewhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: antiquewhite;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: i'Inter', sans-serif; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkgrey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkgrey;
+  min-width: 160px;
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: antiquewhite;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 96px;
+  justify-content: center;
+}
+
+.heroImage {
+  background-color: #090819;
+  padding: 100px 15px;
+  float: right;
+  display: flex;
+  padding-top: 150px;
+  width: 100vw;
+  justify-content: center;
+}
+
+
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #090819;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: antiquewhite;
+  font-size: 15px; 
+  border-radius: 4px;
+  align-self: center;
+  font-family: 'Inter', sans-serif;
+  
+}
+footer {
+  background-color: #090819;
+  padding: 5px;
+  color: antiquewhite;
+  font-family: 'Inter', sans-serif;
+  font-size: 25;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+footer li {
+  display: grid;
+  padding: 25px 50px;
+  float: right;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+}
+
+.gridContainer{
+  display: inline-block;
+  rotate: -90%;
+  float: right;
+}
+
+/*THIS IS A TESTING LINE*/
+/footer li {
+  display: flex;
+  padding: 25px 50px;
+  align-content: space-between;
+  rotate: -90deg;
+  float: right;
+  text-align: bottom;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+img{
+  width: 450px;
+  height: 500px;
+  justify-content: space-around;
+}
+
+p{
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  inline-size: 625px;
+  overflow-wrap: break-word;
+}
+

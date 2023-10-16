@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>MOD 17</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <header>
+      <div>
+        <div class="navbar">
+          <a href="#home">Home</a>
+          <a href="#aboutMe">About Me</a>
+          <a href="#myResume">My Resume</a>
+          <a href="#contactMe"> Contact Me</a>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Walama Restoration Project</a>
+              <a href="#">Bone Appetite</a>
+              <a href="#">Department of the Interior</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+      <section class="heroImage">
+        <div class="mainText">
+        <p>Hello! I am a UX/UI designer with an educational background in Interior Architecture and Art History. My design approach is human centered with the goal of creating accessible and beautifully curated user experiences. I am interested in how people interact with the digital and built world. </p>
+        <h1>SARAH BANKS</h1>
+        <button> Download My Resume</button></div>
+        <img src="images/portfolio image.jpg">
+      </section>
+      
+   <div class="gridContainer">
+    <div>
+      <footer>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>hover demo</title>
+            <style>
+            ul {
+              margin-left: 20px;
+              color: antiquewhite;
+            }
+            li {
+              cursor: default;
+            }
+            span {
+              color: red;
+            }
+            </style>
+            <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+          </head>
+          <body>
+           
+          <ul>
+            <li class="fade">Walama Restoration Project</li>
+            <li class="fade">Department of the Interior</li>
+            <li class="fade">Bone Appetite</li>
+          </ul>
+           
+          <script>
+          $( "li" ).hover(
+            function() {
+              $( this ).append( $( "<span> _______________</span>" ) );
+            }, function() {
+              $( this ).find( "span" ).last().remove();
+            }
+          );
+           
+          $( "li.fade" ).hover(function() {
+            $( this ).fadeOut( 500 );
+            $( this ).fadeIn( 5 );
+          });
+          </script>
+           
+          </body>
+          </html>
+      </footer>
+    </div>
+  </div>
+ 
+</body>
+</html>
+
+
+
+
